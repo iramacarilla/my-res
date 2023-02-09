@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import  ice  from '../images/ice.png';
+/*import  ice  from '../images/ice.png';
 import  ecom  from '../images/ecom.png';
 import  health  from '../images/health.png';
 import  saljarnas  from '../images/saljarnas.png';
 import  book  from '../images/book.png';
-import  projectsData  from '../Data/projectsData.json';
+import  projectsData  from '../Data/projectsData.json';*/
 import Footer from '../Component/Footer';
-import Modal from '../Component/Modal';
+//import Modal from '../Component/Modal';
 import ProjectItem from '../Component/ProjectItem';
 import LinkFurther from '../Component/LinkFurther';
 

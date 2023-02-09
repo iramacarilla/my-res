@@ -1,5 +1,5 @@
 import React from 'react';
-import cv from '../images/cv.pdf';
+//import cv from '../images/cv.pdf';
 import Footer from '../Component/Footer';
 import LinkFurther from '../Component/LinkFurther';
 

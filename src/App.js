@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
@@ -8,7 +8,7 @@ import Header from './Component/Header';
 import { forwardRef, useImperativeHandle, useLayoutEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { useEffect } from 'react';
-import Footer from './Component/Footer';
+//import Footer from './Component/Footer';
 import Contact from './Pages/Contact';
 //let onMouse
 

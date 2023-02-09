@@ -1,18 +1,18 @@
 
 
-import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import React, { useEffect, /*useLayoutEffect,*/ useRef, useState } from 'react';
 import { Link } from "react-router-dom";
 import Footer from "../Component/Footer";
 import LinkFurther from "../Component/LinkFurther";
 //gsap.registerPlugin(SplitText);
 
 const Home = () => {
-    const component = useRef(); // a ref for the root-level element; we use selector text for everything else.
-    const arrowSvg = useRef();
+    //const component = useRef(); // a ref for the root-level element; we use selector text for everything else.
+    //const arrowSvg = useRef();
     const [text, setText] = useState("")
-    const [fullText, setFullText] = useState(
+    /*const [fullText, setFullText] = useState(
         "Your source of leading edge water and air treatment technology since 1994."
-      )
+      )*/
  // const [index, setIndex] = useState(0)
   useEffect(() => {
    
