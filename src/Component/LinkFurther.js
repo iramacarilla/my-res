@@ -1,13 +1,13 @@
 
 //import { gsap } from "gsap/dist/gsap";
-//import gsap from 'gsap';
+import gsap from 'gsap';
 
-/*import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { Link } from "react-router-dom";*/
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { Link } from "react-router-dom";
 //gsap.registerPlugin(SplitText);
 
 const LinkFurther = ({text, link}) => {
-  /*  const component = useRef(); // a ref for the root-level element; we use selector text for everything else.
+    const component = useRef(); // a ref for the root-level element; we use selector text for everything else.
     const arrowSvg = useRef();
 
   useLayoutEffect(() => {
@@ -48,7 +48,7 @@ const LinkFurther = ({text, link}) => {
   </Link>
  
 </>
-  );*/
+  );
 };
 
 export default LinkFurther;
