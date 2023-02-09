@@ -1,7 +1,7 @@
-[
+ export const data = [
     {
         "id" : 1,
-        "img": "https://63e4fd17087eb5007dacb154--guileless-puppy-b990fd.netlify.app/static/media/ecom.cf35bb19715703045c6d.png",
+        "img": require("../images/ecom.png"),
         "name": "Yutnii Home",
         "description": "Non-commertial website where customer can purchase thing for home and admin can manage nessesary changes on page",
         "stack": ["HTML", "CSS", "React", "NodeJs", "MongoDB"],
@@ -10,7 +10,7 @@
     },
     {
         "id" : 2,
-        "img": "https://drive.google.com/file/d/1Im3jzaXekB8hjxJsy4HZlI1fwmnllSbH/view?usp=share_link", 
+        "img": require("../images/ice.png"), 
         "name": "IceCream",
         "description": "Non-commertial landing page with decription of product icecream",
         "stack": ["HTML", "CSS", "JavaScript"],
@@ -19,7 +19,7 @@
     },
     {
         "id" : 3,
-        "img": "http://localhost:3000/static/media/health.b51c9024ea6b1644bcac.png",
+        "img": require("../images/health.png"),
         "name": "SlimMom",
         "description": "Non-commertial website to help moms to calculating the daily amount calories and create a food diary and  come in shape of their dreams. ",
         "stack": ["HTML", "CSS", "React", "Redux Toolkit"],
@@ -28,7 +28,7 @@
     },
     {
         "id" : 4,
-        "img": "http://localhost:3000/static/media/saljarnas.acbe61b4174c3ff73319.png",
+        "img": require("../images/saljarnas.png"),
         "name": "Säljarnas",
         "description": "Help you to get knowlege and help with ",
         "stack": ["HTML", "CSS", "PHP", "WordPress"],
@@ -37,7 +37,7 @@
     },
     {
         "id" : 5,
-        "img": "http://localhost:3000/static/media/book.18c9e22101eb9ab7ce9b.png",
+        "img": require("../images/book.png"),
         "name": "BR",
         "description": "An app to help you reach your reading goals",
         "stack": ["HTML", "CSS", "React", "Redux Toolkit", "NodeJs", "MongoDB"],

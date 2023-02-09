@@ -4,12 +4,12 @@ import  ecom  from '../images/ecom.png';
 import  health  from '../images/health.png';
 import  saljarnas  from '../images/saljarnas.png';
 import  book  from '../images/book.png';*/
-import  projectsData  from '../Data/projectsData.json';
+//import  projectsData  from '../Data/projectsData';
 import Footer from '../Component/Footer';
 //import Modal from '../Component/Modal';
 import ProjectItem from '../Component/ProjectItem';
 import LinkFurther from '../Component/LinkFurther';
-
+import {data} from "../Data/projectsData"
 
 const Projects = () => {
      
@@ -18,7 +18,7 @@ const Projects = () => {
             <h2 className='page-title'>Projects.</h2>
            
             <ul className='projects-list' >
-               {projectsData.map(item=>(
+               {data.map(item=>(
                     <ProjectItem key={item.id} {...item}/>
                 ))}
 
