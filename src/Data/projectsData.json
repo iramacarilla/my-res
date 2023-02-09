@@ -1,7 +1,7 @@
 [
     {
         "id" : 1,
-        "img": "http://localhost:3000/static/media/ecom.cf35bb19715703045c6d.png",
+        "img": "https://63e4fd17087eb5007dacb154--guileless-puppy-b990fd.netlify.app/static/media/ecom.cf35bb19715703045c6d.png",
         "name": "Yutnii Home",
         "description": "Non-commertial website where customer can purchase thing for home and admin can manage nessesary changes on page",
         "stack": ["HTML", "CSS", "React", "NodeJs", "MongoDB"],
@@ -10,7 +10,7 @@
     },
     {
         "id" : 2,
-        "img": "http://localhost:3000/static/media/ice.20c79b7b9a89e9c78bfb.png",
+        "img": "https://drive.google.com/file/d/1Im3jzaXekB8hjxJsy4HZlI1fwmnllSbH/view?usp=share_link", 
         "name": "IceCream",
         "description": "Non-commertial landing page with decription of product icecream",
         "stack": ["HTML", "CSS", "JavaScript"],
