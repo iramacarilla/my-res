@@ -12,11 +12,11 @@ const CV = () => {
             <a href="https://drive.google.com/file/d/10Il9u80a14ST-eXy7dWmRx0JKz4ZorzU/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Go to Resumé Page">
              view</a> or 
             <a href="https://drive.google.com/file/d/10Il9u80a14ST-eXy7dWmRx0JKz4ZorzU/view?usp=sharing" 
-            target="_blank" rel="noopener noreferrer" download="cv" aria-label="Go to Resumé Page"> download </a>
+            target="_blank" rel="noopener noreferrer" download aria-label="Go to Resumé Page"> download </a>
              the resume </p>
            
             <iframe src="https://www.canva.com/design/DAFZzNUKAI8/s52xYBF1tVyXti1BO_EQYA/view?embed#view=fitH" allowFullscreen width="705px" height="1000px" title="Iryna Kosynienko Resumé"  scrolling="no" toolbar="0"/>
-          <LinkFurther text="Contact me now!" link=""/>
+          <LinkFurther text="Contact me now!" link="/contact"/>
             <Footer/>
             </div>
         

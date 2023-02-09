@@ -44,7 +44,7 @@ const Contact = () => {
           <button className="form-btn" type='submit'>Send a message</button>
       
         </form>
-          <LinkFurther text="Go back home!" link=""/>
+          <LinkFurther text="Go back home!" link="/"/>
             <Footer/>
             </div>
         </>

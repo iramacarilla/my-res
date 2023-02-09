@@ -3,7 +3,8 @@
         "id" : 1,
         "img": require("../images/ecom.png"),
         "name": "Yutnii Home",
-        "description": "Non-commertial website where customer can purchase thing for home and admin can manage nessesary changes on page",
+        "short_description": "A non-commertial E-commerce Application For Buying Home Products.",
+        "description":  "Yutnii Home is an e-commerce platform catered towards giving the experience for customers to buy home products, where an admin can also change data on the web-site.",
         "stack": ["HTML", "CSS", "React", "NodeJs", "MongoDB"],
         "webLink": "https://61531a5a3b8b7f41dc6ef5b0--ika-ecommerce-react.netlify.app/",
         "gitLink":"https://github.com/iramacarilla/e_commerce_react"

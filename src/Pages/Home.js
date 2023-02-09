@@ -106,7 +106,7 @@ let wordflick = function () {
           Working with my hands to make magic happen on the internet.</p> 
           <p>View my 
           <button type="button"><Link to='projects'> Projects</Link></button>, <button type="button"><Link to='cv'> Resumé</Link></button>, 
-          <button type="button"> <Link to=""> Contact Me</Link></button>, or send me an email at <button type="button">ikosynienko@gmail.com</button>.</p>
+          <button type="button"> <Link to="contact"> Contact Me</Link></button>, or send me an email at <button type="button">ikosynienko@gmail.com</button>.</p>
         </div>
           <LinkFurther text="See my resume" link="cv"/>
   <Footer/>   
