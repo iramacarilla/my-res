@@ -13,8 +13,7 @@ const ProjectItem = ({...item}) => {
 
     return (
         <>
-      {!item ? <Rings height="30" width="30" color="#000" radius="3" wrapperStyle={{}}  wrapperClass=""  visible={true} ariaLabel="rings-loading"/> 
-      :
+     
           <li key={item.id} onClick={onHandelModal} className='projects-list__item'>
                     <img src={item.img} loading={"eager"} alt={item.name}/>
                     <div className='project-description'>
@@ -27,7 +26,6 @@ const ProjectItem = ({...item}) => {
                         </ul>
                     </div>
                 </li>
-                            }
     {openModal && <Modal item={item} setOpenModal={setOpenModal}/>}
    
         </>

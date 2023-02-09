@@ -478,18 +478,16 @@ textPath {
   margin-bottom: 2rem;
   animation-duration: 1s;
   animation-name: fadeInUp;
-  animation-fill-mode: both;
+  /*animation-fill-mode: both;*/
  }
  @keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
 
   to {
     opacity: 1;
-    -webkit-transform: none;
     transform: none;
   }
 }
@@ -647,7 +645,7 @@ textPath {
   font-size: 26px;
     color: #343a40;
     font-weight: 800;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
  }
  .main-post__description {
   
