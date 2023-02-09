@@ -10,15 +10,16 @@ const ProjectItem = ({...item}) => {
    const onHandelModal= () => {
     setOpenModal(prev => !prev)
 }
+
     return (
         <>
       {!item ? <Rings height="30" width="30" color="#000" radius="3" wrapperStyle={{}}  wrapperClass=""  visible={true} ariaLabel="rings-loading"/> 
       :
           <li key={item.id} onClick={onHandelModal} className='projects-list__item'>
-                    <img src={item.img}/>
+                    <img src={item.img} loading={"eager"} alt={item.name}/>
                     <div className='project-description'>
-                        <h6>{item.name}</h6>
-                        <p>{item.description}</p>
+                        <h6 className='mb-4'>{item.name}</h6>
+                        <p className='mb-2'>{item.description}</p>
                         <ul className='project-description__list'>
                             {item.stack.map(el=>(
                                 <li>{el}</li>

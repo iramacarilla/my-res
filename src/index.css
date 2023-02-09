@@ -340,7 +340,7 @@ textPath {
 }
 .home-title {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 20px;
   text-transform: uppercase;
   
@@ -391,7 +391,7 @@ textPath {
   margin-right: 0;
   }
   .home-title {
-    font-size: 24px;
+    font-size: 20px;
     }
  
 }
@@ -417,6 +417,7 @@ textPath {
   display: flex;
   color: black;
   position: relative;
+  align-items: center;
 }
 .link-further span {
   margin-right: 10px;
@@ -426,7 +427,19 @@ textPath {
   cursor: pointer;
   color: #5b305e;
 }
+.link-further svg {
+  animation: move 1200ms infinite;
+}
 
+@keyframes move {
+  0% {
+    transform: translate(0);
+  
+  }
+  100% {
+    transform: translate(10px);
+  }
+}
 
 /*footer*/
 
@@ -463,7 +476,23 @@ textPath {
   column-gap: 20px;
   padding: 0;
   margin-bottom: 2rem;
+  animation-duration: 1s;
+  animation-name: fadeInUp;
+  animation-fill-mode: both;
  }
+ @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
  @media screen and (max-width: 768px) {
   .projects .projects-list {
     column-count: 1;

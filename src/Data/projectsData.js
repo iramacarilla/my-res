@@ -1,7 +1,7 @@
  export const data = [
     {
         "id" : 1,
-        "img": require("../images/ecom.png"),
+        "img": "https://i.ibb.co/Z26bVjg/ecom.png",//require("../images/ecom.png"),
         "name": "Yutnii Home",
         "short_description": "A non-commertial E-commerce Application For Buying Home Products.",
         "description":  "Yutnii Home is an e-commerce platform catered towards giving the experience for customers to buy home products, where an admin can also change data on the web-site.",
@@ -29,7 +29,7 @@
     },
     {
         "id" : 4,
-        "img": require("../images/saljarnas.png"),
+        "img": "https://i.ibb.co/7by00Kz/saljarnas.png",//require("../images/saljarnas.png"),
         "name": "Säljarnas",
         "description": "Help you to get knowlege and help with ",
         "stack": ["HTML", "CSS", "PHP", "WordPress"],

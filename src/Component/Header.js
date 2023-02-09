@@ -99,8 +99,8 @@ const Header = ({onMouse, offMouse}) => {
        
       
          <div   className={`hamburger-menu ${openStatus}`} onClick={handleOpen}>
-        <div class="hamburger-menu__line"/>
-        <div class="hamburger-menu__line"/>
+        <div className="hamburger-menu__line"/>
+        <div className="hamburger-menu__line"/>
         </div> 
       </nav>
                 </header>
