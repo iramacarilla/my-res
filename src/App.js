@@ -10,7 +10,7 @@ import gsap from 'gsap';
 import { useEffect } from 'react';
 //import Footer from './Component/Footer';
 import Contact from './Pages/Contact';
-//let onMouse
+
 
 const Circle = forwardRef(({ active,size, delay }, ref) => {
   const el = useRef();
@@ -70,7 +70,8 @@ const offMouse = () => {
   }, []);*/
  // console.log(circleRef);
   return (
-    
+    <>
+   
     <div className="App">
       <div className='circle-wrapper'>
        {act ? 
@@ -95,6 +96,7 @@ const offMouse = () => {
       </Routes>
    
     </div>
+      </>
   );
 }
 

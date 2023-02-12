@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import Modal from './Modal';
-import { Rings } from 'react-loader-spinner';
+
 
 
 const ProjectItem = ({...item}) => {

@@ -4,6 +4,7 @@ import React, { useEffect, /*useLayoutEffect,*/ useRef, useState } from 'react';
 import { Link } from "react-router-dom";
 import Footer from "../Component/Footer";
 import LinkFurther from "../Component/LinkFurther";
+import { Rings } from 'react-loader-spinner';
 //gsap.registerPlugin(SplitText);
 
 const Home = () => {
@@ -67,11 +68,22 @@ let wordflick = () => {
 
   return (
     <>
+    {!words ?  <Rings
+  height="80"
+  width="80"
+  color="#4fa94d"
+  radius="6"
+  wrapperStyle={{}}
+  wrapperClass=""
+  visible={true}
+  ariaLabel="rings-loading"
+/> :
+
     <div className="container home">
     <h2 className="home-title">{text}</h2>
       <div className="home-description">
         <div className="home-description__text">
-          <p className="mb-2">Hello! My name is Iryna! I'm a front-end developer with not so long work experience but with a lot of knowlege and big passion to what I do. 
+          <p className="mb-2">My name is Iryna! I'm a front-end developer with not so long work experience but with a lot of knowlege and big passion to what I do. 
           Working with my hands to make magic happen on the internet.</p> 
           <p>View my 
           <button type="button"><Link to='projects'> Projects</Link></button>, <button type="button"><Link to='cv'> Resumé</Link></button>, 
@@ -83,6 +95,7 @@ let wordflick = () => {
    
            
     </div>
+    }
 </>
   );
 };
