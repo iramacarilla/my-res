@@ -47,7 +47,6 @@ const Modal = ({item, setOpenModal}) => {
             </div>
    <div className ="main__post">
    <h3 className ="main-post__title">{item.name}</h3>
-   <p className ="main-post__description">{item.description}</p>
    <div className='main-post__img'>
    <img className='' src={item.img} alt={item.name}/>
    </div>

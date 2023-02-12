@@ -7,37 +7,30 @@ import LinkFurther from "../Component/LinkFurther";
 //gsap.registerPlugin(SplitText);
 
 const Home = () => {
-    //const component = useRef(); // a ref for the root-level element; we use selector text for everything else.
-    //const arrowSvg = useRef();
+ 
     const [text, setText] = useState("")
-    /*const [fullText, setFullText] = useState(
-        "Your source of leading edge water and air treatment technology since 1994."
-      )*/
- // const [index, setIndex] = useState(0)
-  useEffect(() => {
+    let words = ['Hello!', 'My name is Iryna!', 'I am a Frontend developer!'];
    
-   /* if (index < fullText.length) {
-      setTimeout(() => {
-        setText(text + fullText[index])
-        setIndex(index + 1)
-      }, 40)
-    } */
+  useEffect(() => {
+
     wordflick();
   }, [])
-  let words = ['Hello!', 'My name is Iryna!', 'I am a Frontend developer!'],
-    part,
-    i = 0,
-    offset = 0,
-   
-    forwards = true,
-    skip_count = 0,
-    skip_delay = 15,
-    speed = 200;
-let wordflick = function () {
+  
+  
+let wordflick = () => {
+  let part,
+  i = 0,
+  offset = 0,
+ 
+  forwards = true,
+  skip_count = 0,
+  skip_delay = 15,
+  speed = 200;
   setInterval(function () {
     if (forwards) {
       if (offset >= words[i].length) {
         ++skip_count;
+      //  console.log("1");
         if (skip_count === skip_delay) {
           forwards = false;
           skip_count = 0;
@@ -49,24 +42,55 @@ let wordflick = function () {
         forwards = true;
         i++;
         offset = 0;
+        //console.log("2");
         if (i >=  words.length) {
           i = 0;
         }
       }
     }
-    part = words[i].substr(0, offset);
+    part = words[i].substring(0, offset);
+  //  console.log("3");
     if (skip_count === 0) {
       if (forwards) {
         offset++;
+       // console.log("4");
       }
       else {
         offset--;
+       // console.log("5");
       }
     }
     setText(part)
   },speed);
 };
 
+
+  return (
+    <>
+    <div className="container home">
+    <h2 className="home-title">{text}</h2>
+      <div className="home-description">
+        <div className="home-description__text">
+          <p className="mb-2">Frontend developer with not so big work experience but with big passion to what I do. 
+          Working with my hands to make magic happen on the internet.</p> 
+          <p>View my 
+          <button type="button"><Link to='projects'> Projects</Link></button>, <button type="button"><Link to='cv'> Resumé</Link></button>, 
+          <button type="button"> <Link to="contact"> Contact Me</Link></button>, or send me an email at <button type="button">ikosynienko@gmail.com</button>.</p>
+        </div>
+          <LinkFurther text="See my resume" link="cv"/>
+  <Footer/>   
+      </div>
+   
+           
+    </div>
+</>
+  );
+};
+
+export default Home;
+
+
+/* d="M10,90 Q90,90 90,45 Q90,10 50,10 Q10,10 10,40 Q10,70 45,70 Q70,70 75,50" />*
 
  // console.log(index)
   /*useLayoutEffect(() => {
@@ -93,26 +117,8 @@ let wordflick = function () {
     
     return () => ctx.revert(); // useLayoutEffect cleanup
   }, []);*/
-
-
-  
-  return (
-    <>
-    <div className="container home">
-    <h2 className="home-title">{text}</h2>
-      <div className="home-description">
-        <div className="home-description__text">
-          <p className="mb-2">Frontend developer with not so big work experience but with big passion to what I do. 
-          Working with my hands to make magic happen on the internet.</p> 
-          <p>View my 
-          <button type="button"><Link to='projects'> Projects</Link></button>, <button type="button"><Link to='cv'> Resumé</Link></button>, 
-          <button type="button"> <Link to="contact"> Contact Me</Link></button>, or send me an email at <button type="button">ikosynienko@gmail.com</button>.</p>
-        </div>
-          <LinkFurther text="See my resume" link="cv"/>
-  <Footer/>   
-      </div>
-      
-     {/* <svg id="home-svg" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+     
+     /* <svg id="home-svg" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
         <path
         id="MyPath"
         fill="none"
@@ -156,15 +162,26 @@ id="MyPath"
             <text>
               <textPath data-text="Hello! My name is Iryna. I'm frontend developer!" xlinkHref="#MyPath">Hello! My name is Iryna. I'm frontend developer!</textPath>
             </text>
-        </svg>}*/ } 
+        </svg>}
+         //const component = useRef(); // a ref for the root-level element; we use selector text for everything else.
+    //const arrowSvg = useRef();
+      
+     /*const [fullText, setFullText] = useState(
+        "Your source of leading edge water and air treatment technology since 1994."
+      )*/
+ // const [index, setIndex] = useState(0)
+   
+   /* if (index < fullText.length) {
+      setTimeout(() => {
+        setText(text + fullText[index])
+        setIndex(index + 1)
+      }, 40)
+    } */
+      
 
-           
-    </div>
-</>
-  );
-};
-
-export default Home;
 
 
-/* d="M10,90 Q90,90 90,45 Q90,10 50,10 Q10,10 10,40 Q10,70 45,70 Q70,70 75,50" />**/
+  
+
+
+

@@ -18,7 +18,7 @@ const ProjectItem = ({...item}) => {
                     <img src={item.img} loading={"eager"} alt={item.name}/>
                     <div className='project-description'>
                         <h6 className='mb-4'>{item.name}</h6>
-                        <p className='mb-2'>{item.description}</p>
+                        <p className='mb-2'>{item.short_description}</p>
                         <ul className='project-description__list'>
                             {item.stack.map(el=>(
                                 <li>{el}</li>

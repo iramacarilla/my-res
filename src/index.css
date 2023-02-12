@@ -352,11 +352,14 @@ textPath {
  {
   margin-left: 5px;
   border: none;
-  padding: 5px 10px;
+  padding: 2px 6px;
   background-color: #e5d4be;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 14px;
   transition: background-color 2s ease-out 100ms
+}
+.home-description button:last-of-type {
+  margin-left: 0;
 }
 .home-description button:hover
  {
@@ -382,11 +385,17 @@ textPath {
     font-size: 36px;
 
   }
-  .home-description p {
+  .home-description__text p {
   font-size: 16px;
   }
 }
 @media screen and (max-width: 768px) {
+  .home-description__text p {
+    font-size: 14px;
+    }
+  .home-description button {
+    font-size: 12px;
+  } 
   .home-description {
   margin-right: 0;
   }
@@ -402,7 +411,7 @@ textPath {
   .home-description {
     margin-top: 20px;
   }
-  .home-description p {
+  .home-description__text p {
     font-size: 14px;
   }
   .home {
@@ -794,6 +803,7 @@ textPath {
   border-radius: 10px;
   background-color: #faf6f1;
   font-size: 16px;
+  outline: none;
  }
  .contact textarea {
   height: 7rem;
