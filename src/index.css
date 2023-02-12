@@ -88,13 +88,7 @@ img {
       font-size: 40px;
     }
   }
- /* @media screen and (min-width: 1600px) {
-    .container {
-      width: 1200px;
-        padding: 0 15px;
-       
-    }
-}*/
+
 
 /*header*/
 
@@ -143,10 +137,7 @@ img {
 .inactive {
   color: black;
 }
-.active {
-  /*border-bottom: solid 1px #343a40;*/
-  color: #343a40;
-}
+
 nav li {
   padding: 20px;
   display: inline-block;
@@ -156,13 +147,13 @@ nav li {
   position: relative;
   overflow: hidden;
 }
-nav li::before {
+nav li .active::before  {
   content: '';
   position: absolute;
     z-index: -1;
-    left: 51%;
-    right: 51%;
-    bottom: 1.5px;
+    left: 0;/*51%;*/
+    right: 0;/*51%;*/
+    bottom: 9.5px;
     background: #343a40;
     height: 1px;
     transition-property: left, right;
@@ -356,14 +347,18 @@ textPath {
   background-color: #e5d4be;
   border-radius: 5px;
   font-size: 14px;
-  transition: background-color 2s ease-out 100ms
+  transition: background-color 1s ease-out 100ms
 }
 .home-description button:last-of-type {
   margin-left: 0;
 }
 .home-description button:hover
  {
-  background-color: #5b305e;
+  background-color: #b6a185;
+}
+.home-description button a:hover
+ {
+  cursor: pointer;
 }
 .home-description__text {
   margin-bottom: 30px;
