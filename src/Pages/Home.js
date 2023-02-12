@@ -71,7 +71,7 @@ let wordflick = () => {
     <h2 className="home-title">{text}</h2>
       <div className="home-description">
         <div className="home-description__text">
-          <p className="mb-2">My name is Iryna! I'm a front-end developer with not so long work experience but with a lot of knowlege and big passion to what I do. 
+          <p className="mb-2">Hello! My name is Iryna! I'm a front-end developer with not so long work experience but with a lot of knowlege and big passion to what I do. 
           Working with my hands to make magic happen on the internet.</p> 
           <p>View my 
           <button type="button"><Link to='projects'> Projects</Link></button>, <button type="button"><Link to='cv'> Resumé</Link></button>, 
