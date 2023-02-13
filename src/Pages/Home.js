@@ -16,7 +16,7 @@ const Home = () => {
 
     wordflick();
   }, [])
-  
+ 
   
 let wordflick = () => {
   let part,
