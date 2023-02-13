@@ -68,34 +68,20 @@ let wordflick = () => {
 
   return (
     <>
-    {!words ?  <Rings
-  height="80"
-  width="80"
-  color="#4fa94d"
-  radius="6"
-  wrapperStyle={{}}
-  wrapperClass=""
-  visible={true}
-  ariaLabel="rings-loading"
-/> :
-
     <div className="container home">
     <h2 className="home-title">{text}</h2>
       <div className="home-description">
         <div className="home-description__text">
-          <p className="mb-2">My name is Iryna! I'm a front-end developer with not so long work experience but with a lot of knowlege and big passion to what I do. 
+          <p className="mb-2">My name is Iryna! I'm a front-end developer with not that much work experience, but a lot of professional knowledge and a passion for what I do. 
           Working with my hands to make magic happen on the internet.</p> 
           <p>View my 
           <button type="button"><Link to='projects'> Projects</Link></button>, <button type="button"><Link to='cv'> Resumé</Link></button>, 
           <button type="button"> <Link to="contact"> Contact Me</Link></button>, or send me an email at <button type="button">ikosynienko@gmail.com</button>.</p>
         </div>
           <LinkFurther text="See my resume" link="cv"/>
-  <Footer/>   
-      </div>
-   
-           
+          <Footer/>   
+      </div>    
     </div>
-    }
 </>
   );
 };
