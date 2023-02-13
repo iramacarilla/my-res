@@ -10,7 +10,7 @@ import gsap from 'gsap';
 import { useEffect } from 'react';
 //import Footer from './Component/Footer';
 import Contact from './Pages/Contact';
-import NotFound from './Pages/NotFound';
+import NotFound404 from './Pages/404';
 
 
 const Circle = forwardRef(({ active,size, delay }, ref) => {
@@ -94,7 +94,7 @@ const offMouse = () => {
       <Route path="projects" element={<Projects/>}/>
       <Route path="cv" element={<CV/>} />
       <Route path="contact" element={<Contact/>} />
-      <Route path='*' element={<NotFound />}/>
+      <Route path='*' element={<NotFound404 />}/>
       </Routes>
    
     </div>
