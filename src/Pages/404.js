@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import LinkFurther from '../Component/LinkFurther';
 
-const NotFound = () => {
+const NotFound404 = () => {
      
     return (
         <div className='container projects'>
@@ -12,4 +12,4 @@ const NotFound = () => {
     );
 };
 
-export default NotFound;
+export default NotFound404;
