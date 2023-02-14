@@ -865,6 +865,10 @@ textPath {
 
 .not-found {
   display: flex;
+  margin-top: 50px;
+}
+.not-found h2{
+  font-size: 50px;
 }
 .not-found img {
   width: 50%;
@@ -872,6 +876,10 @@ textPath {
 @media screen and (max-width: 768px) {
   .not-found {
     display: block;
+    margin-top: 0;
+  }
+  .not-found h2{
+    font-size: 40px;
   }
   .not-found img {
     width: 70%;

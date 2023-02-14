@@ -9,8 +9,8 @@ const NotFound404 = () => {
      <img src={ostrich} alt="ostrich"/>
      <div>
 
-            <h2 className='page-title'>Opps!</h2>
-            <h4 className='mb-6'>We can't seem to find the page you are looking for!</h4>
+            <h2 className='page-title'>Opps! Page not found.</h2>
+           
             <LinkFurther text="Back to home" link="/"/>
      </div>
         </div>
