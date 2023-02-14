@@ -859,3 +859,21 @@ textPath {
     width: 100%;
   }
 }
+
+
+/*404*/
+
+.not-found {
+  display: flex;
+}
+.not-found img {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .not-found {
+    display: block;
+  }
+  .not-found img {
+    width: 70%;
+  }
+}
