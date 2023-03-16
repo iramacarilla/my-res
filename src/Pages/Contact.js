@@ -34,7 +34,7 @@ const Contact = () => {
         <>
         <div className='container contact'>
         <h2 className='page-title'>Contact.</h2>
-        <p className='mb-6'>Get in touch via tel. <span className='contact-info__data'>+476765850387</span> or shoot an email direct on <span className='contact-info__data'>ikosynienko@gmail</span> </p>
+        <p className='mb-6'>Get in touch via tel. <span className='contact-info__data'>+4765850387</span> or shoot an email direct on <span className='contact-info__data'>ikosynienko@gmail.com</span> </p>
         {text==='OK' && <p className="error">Your message is sent</p>}
         <form ref={form} onSubmit={onHandleSubmit}>
           <input  type='name' name="user_name"  onChange={handleChange} value={user.user_name} placeholder="Name"/>
