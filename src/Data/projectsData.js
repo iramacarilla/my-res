@@ -56,7 +56,7 @@
         "short_description": "Summarize articles with OpenAI GPT-4",
         "description": "A landing page to simplify your reading. An open-source article summarizer that transform lengthy articles to clear and concise summaries",
         "stack":  ["HTML", "Tailwind CSS", "React", "Redux Toolkit"],
-        "webLink": "https://neon-conkies-c5751e.netlify.app/",
+        "webLink": "https://whimsical-pony-32d94b.netlify.app/",
         "gitLink":"https://github.com/iramacarilla/GPT-AI-Website"
     }
 ]
