@@ -48,5 +48,15 @@
         "stack": ["HTML", "CSS", "React", "Redux Toolkit", "NodeJs", "MongoDB"],
         "webLink": "https://splendid-cheesecake-1e22ff.netlify.app/",
         "gitLink":"https://github.com/iramacarilla/app_read_books"
+    },
+    {
+        "id" : 6,
+        "img": require("../images/summarizer.png"),
+        "name": "Summarizer",
+        "short_description": "Summarize articles with OpenAI GPT-4",
+        "description": "A landing page to simplify your reading. An open-source article summarizer that transform lengthy articles to clear and concise summaries",
+        "stack":  ["HTML", "Tailwind CSS", "React", "Redux Toolkit"],
+        "webLink": "https://neon-conkies-c5751e.netlify.app/",
+        "gitLink":"https://github.com/iramacarilla/GPT-AI-Website"
     }
 ]
