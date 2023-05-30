@@ -63,10 +63,10 @@
         "id" : 7,
         "img": require("../images/Vite-React.png"),
         "name": "Customizer",
-        "short_description": "Summarize articles with OpenAI GPT-4",
+        "short_description": "Create your unique and exlusive shirt",
         "description": "A web application where you can create your unique and exlusive shirt with brand new 3d customization tool.",
         "stack":  ["HTML", "Tailwind CSS", "React", "ThreeJS", "Framer Motion"],
-        "webLink": "https://whimsical-pony-32d94b.netlify.app/",
-        "gitLink":"https://github.com/iramacarilla/GPT-AI-Website"
+        "webLink": "https://6475fb6a449ebd008ff96417--gleeful-panda-c5c244.netlify.app/",
+        "gitLink":"https://github.com/iramacarilla/customizer_ai_threejs"
     }
 ]
