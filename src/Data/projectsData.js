@@ -58,5 +58,15 @@
         "stack":  ["HTML", "Tailwind CSS", "React", "Redux Toolkit"],
         "webLink": "https://whimsical-pony-32d94b.netlify.app/",
         "gitLink":"https://github.com/iramacarilla/GPT-AI-Website"
+    },
+    {
+        "id" : 7,
+        "img": require("../images/Vite-React.png"),
+        "name": "Customizer",
+        "short_description": "Summarize articles with OpenAI GPT-4",
+        "description": "A web application where you can create your unique and exlusive shirt with brand new 3d customization tool.",
+        "stack":  ["HTML", "Tailwind CSS", "React", "ThreeJS", "Framer Motion"],
+        "webLink": "https://whimsical-pony-32d94b.netlify.app/",
+        "gitLink":"https://github.com/iramacarilla/GPT-AI-Website"
     }
 ]
